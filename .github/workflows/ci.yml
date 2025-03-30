@@ -18,11 +18,12 @@ jobs:
         with:
           node-version: 16
 
-      - name: Navigate to Project Directory
-        run: cd your-project-directory # Replace with the actual directory containing package.json
-
       - name: Install Dependencies
-        run: npm install
+        run: |
+          cd your-project-directory # Replace with the actual directory containing package.json
+          npm install
 
       - name: Run Tests
-        run: npm test
+        run: |
+          cd your-project-directory # Replace with the actual directory containing package.json
+          npm test
