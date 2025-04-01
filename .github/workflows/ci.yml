@@ -20,10 +20,10 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cd your-project-directory # Replace with the actual directory containing package.json
+          cd your-project-directory 
           npm install
 
       - name: Run Tests
         run: |
-          cd your-project-directory # Replace with the actual directory containing package.json
+          cd your-project-directory 
           npm test
